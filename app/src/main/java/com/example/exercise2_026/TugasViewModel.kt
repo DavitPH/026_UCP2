@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-class VTugasViewModel : ViewModel() {
+class TugasViewModel : ViewModel() {
     private val _stateUi = MutableStateFlow(TugasUIState())
     val stateUi: StateFlow<TugasUIState> = _stateUi.asStateFlow()
 
@@ -31,3 +31,4 @@ class VTugasViewModel : ViewModel() {
         }
     }
 }
+
