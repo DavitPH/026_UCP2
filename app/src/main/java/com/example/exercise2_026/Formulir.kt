@@ -32,7 +32,7 @@ import com.example.exercise2_026.ui.theme.Exercise2_026Theme
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Formulir(
-    onSubmitButtonClicked: (MutableList<String>) -> Unit,
+    onNextButtonClicked: (MutableList<String>) -> Unit,
     pilihDosen: List<String>,
     onSelectionChanged: (String) -> Unit,
     modifier: Modifier = Modifier)
@@ -78,7 +78,7 @@ fun Formulir(
 
 
         Spacer(modifier = Modifier.padding(16.dp))
-        Button(onClick = { onSubmitButtonClicked(ListData) }) {
+        Button(onClick = { onNextButtonClicked(ListData) }) {
             Text(text = stringResource(id = R.string.submit))
         }
     }
@@ -91,6 +91,6 @@ fun PreviewHalamanFormulir() {
     Exercise2_026Theme {
         Formulir(pilihDosen = listOf("Djoko", "Haris", "Aprilia"),
             onSelectionChanged = { /* handle selection change */ },
-            onSubmitButtonClicked = { /* handle cancel button */ })
+            onNextButtonClicked = { /* handle cancel button */ })
     }
 }
