@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Exercise2_026</string>
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="konsen">Konsentrasi</string>
+    <string name="judul">Judul Skripsi</string>
+    <string name="haris">Haris</string>
+    <string name="djoko">Djoko</string>
+    <string name="aprilia">Aprilia</string>
+    <string name="dosen">Dosen</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="back">back</string>
+</resources>
